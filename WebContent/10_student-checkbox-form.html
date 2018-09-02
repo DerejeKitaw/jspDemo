@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Student registration form</title>
+</head>
+
+<body>
+  <form action="10_student-checkbox-response.jsp">
+    <div>First Name: <input type="text" name="firstName" /></div>
+    <div>Last Name : <input type="text" name="lastName" /></div>
+    <div>Country :
+      <select name="country">
+        <option>Ethiopia</option>
+        <option>United State</option>
+        <option>Canada</option>
+      </select>
+    </div>
+    <div>Favorite Programming Language: </div>
+    <span><input type="radio" name="favoriteLanguage" value="Java"> Java</span>
+    <span><input type="radio" name="favoriteLanguage" value="C#"> C#</span>
+    <span><input type="radio" name="favoriteLanguage" value="PHP"> PHP</span>
+    <span><input type="radio" name="favoriteLanguage" value="Ruby"> Ruby</span>
+
+    <div>Hobbies: </div>
+    <span><input type="checkbox" name="hobbies" value="Swimming"> Swimming</span>
+    <span><input type="checkbox" name="hobbies" value="Football"> Football</span>
+    <span><input type="checkbox" name="hobbies" value="Reading"> Reading</span>
+    <span><input type="checkbox" name="hobbies" value="Programming"> Programming</span>
+
+    <div><input type="submit" name="Submit" /></div>
+  </form>
+</body>
+
+</html>
